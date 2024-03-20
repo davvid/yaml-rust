@@ -1,6 +1,9 @@
 // Copyright 2015, Yuheng Chen. See the LICENSE file at the top-level
 // directory of this distribution.
 
+//! **IMPORTANT** This crate has merged with `yaml-rust2`.
+//! Please upgrade to [yaml-rust2](https://github.com/Ethiraric/yaml-rust2).
+//!
 //! YAML 1.2 implementation in pure Rust.
 //!
 //! # Usage
