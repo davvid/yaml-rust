@@ -1,6 +1,6 @@
 [package]
 name = "yaml-rust-davvid"
-version = "0.6.3"
+version = "0.6.4"
 authors = [
     "Yuheng Chen <yuhengchen@sensetime.com>",
     "David Aguilar <davvid@gmail.com>"
@@ -12,6 +12,8 @@ description = "The missing YAML 1.2 parser for rust"
 repository = "https://github.com/davvid/yaml-rust"
 readme = "README.md"
 edition = "2021"
+
+[badges]
 maintenance = { status = "deprecated" }
 
 [dependencies]
