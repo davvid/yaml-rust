@@ -3,7 +3,8 @@
 **IMPORTANT** The enhancements from this fork have been merged into
 [yaml-rust2](https://github.com/Ethiraric/yaml-rust2), the de-facto Rust YAML implementation.
 
-All future development has moved to yaml-rust2. Users are advised to upgrade to `yaml-rust2`.
+All future development has moved to `yaml-rust2`.
+Users are advised to upgrade to `yaml-rust2`.
 
 * https://github.com/Ethiraric/yaml-rust2/pull/2
 
