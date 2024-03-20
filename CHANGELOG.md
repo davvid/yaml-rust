@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.6.3 FINAL RELEASE
+
+- The maintenance status was set to "deprecated" in `Cargo.toml`.
+
+## v0.6.2
+
+- The maintenance status was set to "as-is" in `Cargo.toml`.
+
+## v0.6.1
+
+- All development has moved to [yaml-rust2](https://github.com/Ethiraric/yaml-rust2).
+  `yaml-rust-davvid` has been merged into `yaml-rust2` and will not have any
+  further releases.
+
 ## v0.6.0
 
 **Features**:
