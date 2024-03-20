@@ -1,3 +1,32 @@
+# Development has moved to yaml-rust2
+
+**IMPORTANT** The enhancements from this fork have been merged into
+[yaml-rust2](https://github.com/Ethiraric/yaml-rust2), the de-facto Rust YAML implementation.
+
+All future development has moved to yaml-rust2. Users are advised to upgrade to `yaml-rust2`.
+
+* https://github.com/Ethiraric/yaml-rust2/pull/2
+
+* https://github.com/rustsec/advisory-db/issues/1921#issuecomment-2002383025
+
+* https://github.com/chyh1990/yaml-rust/issues/160
+
+* https://github.com/chyh1990/yaml-rust/issues/192
+
+## Upgrading to yaml-rust2
+
+You can use [yaml-rust2](https://github.com/Ethiraric/yaml-rust2)
+as a drop-in replacement for `yaml-rust` by setting the `package` option
+to `yaml-rust2` in your project's `Cargo.toml`.
+
+```toml
+[dependencies]
+yaml-rust = { version = "0.7", package = "yaml-rust2" }
+```
+
+The original README from yaml-rust-davvid follows below:
+
+
 # yaml-rust
 
 The missing YAML 1.2 implementation for Rust.
